@@ -1,0 +1,140 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    background-color:lightgray;
+    padding: 1%;
+}
+body {
+    background-color: lightyellow;
+    margin:auto;
+    /* background-image: url("images/blocks.jpg") */
+  }
+
+  #imageContainer{
+    display: flex;
+    background-color: DodgerBlue;
+  }
+
+  img {
+    /* position: absolute;
+    left: 0px;
+    top: 0px; */
+    z-index: -1000;
+    /* border: 10px dotted red; */
+    border-width: 10px;
+    border-style: dotted;
+    border-color: purple;
+    margin: auto;
+    padding: 3px;
+    width: 400px;
+    heigth: 400px;
+
+      
+  }
+  
+  ol {
+    list-style-type: upper-roman;
+  }
+  
+
+h1{
+    color: blue;
+}
+
+ p{
+    color: red;
+    text-align: center;
+} 
+
+/* table tr{
+    background-color: lightblue;
+}
+
+#tableHeader{
+    background-color: blue;
+} */
+
+.b{
+    color: brown;
+}
+
+/* *{
+    color:red;
+} */
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: pink;
+}
+
+/* table td:first-child{
+    background-color: red;
+} */
+
+/* table td:nth-child(odd){
+    background-color: purple;
+
+}
+
+table td:nth-child(even){
+    background-color: red;
+
+} */
+ol li:first-child{
+    background-color: purple;
+}
+
+ol li::marker {
+    color: pink;
+    font-size: 23px;
+  }
+
+ ul.a li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    border: 1px solid black;
+    color: purple;
+    font-size: 20px;
+    background-color: yellow;
+ } 
+
+ ul.a li:hover{
+    background-color: pink;
+ }
+
+ ul.a{
+    text-align:center;
+ }
+  
+ /* table{
+    border: 1px solid black;
+ } */
+
+ table tr td{
+    background-color: lightblue;
+    border: 2px dotted purple;
+ }
+
+ table th{
+    background-color: blue;
+ }
+
+ table tr:nth-child(odd){
+    background-color: white;
+ }
+
+ table tr:nth-child(even){
+    background-color: gray;
+ }
+
+
+ 
+/* 
+#tableHeader{
+    background-color: blue;
+} */
